@@ -1,0 +1,141 @@
+*{
+    margin: 0;
+    padding: 0;
+
+}
+.master{
+    height:70vh;
+    width:40vw;
+    background-color: rgb(229, 223, 223);
+    margin:auto;
+    margin-top: 100px;
+    display:flex;
+    flex-direction:column;
+border-radius: 20px;
+column-gap: 2px;
+    align-items: center;
+    padding:5px 0px;
+
+}
+div.head1{
+    height: 6%;
+    
+    text-align: center;
+}
+div.upper{
+height:45%;
+display:flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+
+}
+div.mid{
+    height:10%;
+    
+    display:flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+    text-align: center;
+    margin:10px 0px;
+    }
+#btn{
+    height:100%;
+    width:100px;
+    background-color: rgb(247, 244, 244);
+    border: 1px solid rgb(175, 174, 174);
+    border-radius: 5px;
+    box-shadow: 2px 2px 8px rgb(177, 176, 176);
+}
+#btn:active{
+    background-color: rgb(225, 225, 225);
+}
+#middle{
+height:100%;
+width:240px;
+display:flex;
+align-items: center;
+justify-content: center;
+
+font-size: 18px;
+margin:0px 20px;
+border:1px solid gray;
+border-radius: 10px;
+background-color: white;
+
+}
+#next{
+    height:100%;
+    width:100px;
+    background-color: rgb(247, 244, 244);
+    border: 1px solid rgb(175, 174, 174);
+    border-radius: 5px;
+    box-shadow: 2px 2px 8px rgb(177, 176, 176);
+}
+#next:active{
+    background-color: rgb(225, 225, 225);
+}
+button{
+    color:gray;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    
+}
+ div.head2{
+        height:6%;
+        
+        text-align: center;
+        }
+div.lower{
+            height:45%;
+            
+           
+            display:flex;
+            flex-direction: row;
+            justify-content: center;
+            align-items: center;
+            }
+
+
+.div{
+    border-radius: 10px;
+    width:100%;
+    color:rgb(177, 173, 173);
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    
+}
+#rock2{
+    background-image: url("rock1.jpg");
+    background-size: contain;
+}
+#pap2{
+    background-image: url("paper1.jpg");
+    background-size: contain;
+}
+#sci2{
+    background-image: url("scissor.jpg");
+    background-size: contain;
+}
+#rock1{
+    background-image: url("rock1.jpg");
+    background-size: contain;
+}
+#pap1{
+    background-image: url("paper1.jpg");
+    background-size: contain;
+}
+#sci1{
+    background-image: url("scissor.jpg");
+    background-size: contain;
+}
+
+
+.box{
+    height:190px;
+    width: 190px;
+    margin:6px 5px;
+   
+filter:grayscale(100%);
+border-radius: 50%;
+border-style: none; 
+}
